@@ -9,4 +9,5 @@ add_executable(computer_enh_1 main.cpp
         bytes.h
         bytes.cpp
         instruction.h
+        instruction.cpp
 )
