@@ -26,8 +26,8 @@ typedef struct {
 } Byte2;
 
 
-Byte1 *getByte1(unsigned char byte);
-Byte2 *getByte2(unsigned char byte);
+Byte1 *getByte1(unsigned char byte, bool debug);
+Byte2 *getByte2(unsigned char byte, bool debug);
 void print1Byte(uint8_t byte);
 void printPartOf1Byte(uint8_t byte, int nbBitsToRead);
 
